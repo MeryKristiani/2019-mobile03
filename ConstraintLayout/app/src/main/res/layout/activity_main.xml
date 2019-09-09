@@ -10,10 +10,21 @@
 		android:id="@+id/linearLayout"
 		android:layout_width="0dp"
 		android:layout_height="match_parent"
+		android:background="#000000"
 		android:orientation="horizontal"
 		app:layout_constraintEnd_toStartOf="@+id/guideline"
+		app:layout_constraintHorizontal_bias="1.0"
 		app:layout_constraintStart_toStartOf="parent"
-		tools:layout_editor_absoluteY="0dp"></LinearLayout>
+		tools:layout_editor_absoluteY="0dp" >
+
+		<Button
+			android:id="@+id/button4"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:layout_weight="1"
+			android:background="#FF0000"
+			android:text="Merah" />
+	</LinearLayout>
 
 	<androidx.constraintlayout.widget.Guideline
 		android:id="@+id/guideline"
@@ -23,24 +34,14 @@
 		app:layout_constraintGuide_percent="0.5" />
 
 	<Button
-		android:id="@+id/button2"
-		android:layout_width=""
-		android:layout_height=""
-		android:background="#FF0200"
-		android:text="Button"
-		app:layout_constraintBottom_toBottomOf="parent"
-		app:layout_constraintEnd_toStartOf="@+id/guideline"
-		app:layout_constraintStart_toStartOf="@+id/linearLayout"
-		app:layout_constraintTop_toTopOf="@+id/linearLayout" />
-
-	<Button
-		android:id="@+id/button3"
-		android:layout_width=""
-		android:layout_height=""
-		android:background=""
-		android:text="Button"
+		android:id="@+id/button7"
+		android:layout_width="0dp"
+		android:layout_height="match_parent"
+		android:background="#FFFFFF"
+		android:text="Putih"
 		app:layout_constraintBottom_toBottomOf="parent"
 		app:layout_constraintEnd_toEndOf="parent"
-		app:layout_constraintStart_toEndOf="@+id/button2"
+		app:layout_constraintStart_toStartOf="@+id/guideline"
 		app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
