@@ -16,4 +16,8 @@
 	<string name="confirm_password">Confirm Password</string>
 	<string name="send_request">Send Request</string>
 	<string name="change_password">Change Password</string>
+    <string name="aking">aking</string>
+	<string name="todo">TODO</string>
+    <string name="todo">TODO</string>
+	<string name="motret">Motret</string>
 </resources>
